@@ -1,0 +1,7 @@
+{
+  "/items/*": {
+    "target": "http://localhost:9900",
+    "secure": false,
+    "logLevel": "debug"
+  }
+}

@@ -1,0 +1,21 @@
+<h1>ng-apimock test example app</h1>
+
+<h2>response</h2>
+<p>
+    data: <span class="data">{{response.body}}</span> <br/>
+    status: <span class="status">{{response.status | json}}</span><br/>
+    done: <span class="done">{{done}}</span>
+</p>
+
+<hr/>
+
+<button (click)="get()">get</button>
+<button (click)="binary()">binary</button>
+<button (click)="getAsJsonp()">get as jsonp</button>
+
+<hr/>
+
+<input type="text" id="item" name="item" required [(ngModel)]="item">
+<button type="submit" class="btn btn-success" (click)="post()">post</button>
+
+<hr/>

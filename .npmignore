@@ -1,0 +1,11 @@
+#src
+src
+
+# typescript
+**/*.ts
+tsconfig.json
+
+#project
+.idea
+.npmignore
+yarn.lock
