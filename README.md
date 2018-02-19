@@ -1,2 +1,2 @@
-# ngapimock-angular-test-app
+# ng-apimock-angular-test-app
 Angular test application for ng-apimock
